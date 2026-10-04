@@ -69,3 +69,20 @@ header {
   padding: 3rem 1rem;
 }
 header h1 { font-size: 3rem; letter-spacing: 2px; }
+
+.tarjeta, .promo {
+  transition: transform .25s ease, box-shadow .25s ease;
+}
+.tarjeta:hover, .promo:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 20px rgba(75, 46, 30, .18);
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  background: rgba(59, 35, 20, .95);
+  padding: .8rem 0;
+  z-index: 10;
+}
+nav a { font-weight: bold; }
