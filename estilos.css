@@ -45,3 +45,16 @@ footer {
   padding: 1rem;
   margin-top: 2rem;
 }
+/* ===== Promociones ===== */
+.promos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
+.promo {
+  background: #fff3e0;
+  border-left: 5px solid #d9822b;
+  border-radius: 6px;
+  padding: 1rem;
+}
+.promo h3 { color: #b35f12; }
